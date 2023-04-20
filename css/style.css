@@ -9,9 +9,10 @@
     position: relative;
 }
 
+/* immagini e background */
 img{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -26,4 +27,23 @@ img{
 
 .yellow{
     background-color: yellow;
+}
+
+/* contenuto */
+
+p{
+    text-transform: uppercase;
+    color:yellow;
+    font-size: 60px;
+    font-weight: 800;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#green_content{
+    color: green;
 }
